@@ -4,10 +4,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import org.apache.poi.ss.formula.EvaluationWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.DataFormat;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -32,13 +30,7 @@ public class Dtata_FramWork {
 		FileOutputStream out = new FileOutputStream(file);
 		
 		book.write(out);
-        System.out.println("hi");
-        
-        String Suriya = "Hellow world";
-        
-       
-        
-       
+
 		
 	}
 	
